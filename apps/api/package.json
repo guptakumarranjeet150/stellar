@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/app-api.ts",
-    "start": "tsx src/app-api.ts",
-    "build": "tsc -p tsconfig.build.json",
+    "dev": "node init && tsx watch src/app-api.ts",
+    "start": "node init && tsx src/app-api.ts",
+    "build": "node init && tsc -p tsconfig.build.json",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
