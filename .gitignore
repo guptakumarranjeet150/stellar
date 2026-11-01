@@ -9,7 +9,6 @@ dist
 *.tsbuildinfo
 
 # env
-.env
 .env.**
 !.env.example
 
@@ -30,3 +29,4 @@ agents/
 ralph/
 
 snapshot.sql
+config.bat
